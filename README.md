@@ -19,4 +19,4 @@ This is a react app so I first had to run `npx create-react-app react-portfolio`
 
 Live Site: https://saucymj.github.io/saucymj.github.io-reactprofile/
 
-Repository: https://github.com/saucymj/saucymj.github.io-reactprofile/edit/main/README.md
+Repository: https://github.com/saucymj/saucymj.github.io-reactprofile
