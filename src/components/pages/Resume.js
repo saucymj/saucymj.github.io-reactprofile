@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CV from '../utils/Resume-7.pdf';
 export default function Resume() {
 
     const resumeStyle = {
@@ -14,7 +14,7 @@ export default function Resume() {
         <div className='container'>
             <h1 style={{ color: '#c9fbff', padding: '17px' }}>Resume</h1>
             <div>
-                <a style={{ textDecoration: 'none', fontSize: '27px', color: '#FFBEAD', margin: '10px' }} href="https://docs.google.com/document/d/e/2PACX-1vRMVMnc7FogN_AxN3N8QmAFQ-_B1Ov6Km2NpP7V3spm8j5Z-UxL6ywYerwV_fOclA/pub" className="">A link to download my resume</a>
+            <a style={{ textDecoration: 'none', fontSize: '27px', color: '#FFBEAD', margin: '10px' }} href={CV} className="" download>A link to download my resume</a>
             </div>
             <div>
                 <h2 style={proficienciesStyle}>
